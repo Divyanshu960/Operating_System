@@ -3,7 +3,6 @@
 #include <unistd.h>
 int main()
 {
-
 	// make two process which run same
 	// program after this instruction
 	fork();
