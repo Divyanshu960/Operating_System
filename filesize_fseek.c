@@ -9,7 +9,7 @@ int main()
     fp = fopen("temp.txt", "r");
  
     /*Move file point at the end of file.*/
-    fseek(fp, 0, SEEK_END);
+    fseek(fp, 0, SEEK_END); 
 
     /*Get the current position of the file pointer.*/
     size = ftell(fp);
