@@ -7,7 +7,7 @@ int main()
 
     /*Open file in Read Mode*/
     fp = fopen("temp.txt", "r");
-
+ 
     /*Move file point at the end of file.*/
     fseek(fp, 0, SEEK_END);
 
